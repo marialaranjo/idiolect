@@ -1,0 +1,22 @@
+# Dados pessoais/sensíveis — pensado para quando este template é
+# preenchido com dados reais e o repositório é público no GitHub.
+# Ver PREENCHER_PRIMEIRO.md §"Antes de publicar num repositório público".
+#
+# Estas duas pastas existem vazias de propósito (só os README.md de guia);
+# só passam a ter conteúdo quando alguém cola amostras reais de escrita ou
+# factos de projetos. Manter esse conteúdo fora do Git por defeito.
+contexts/*
+!contexts/README.md
+
+examples/writing-samples/*
+!examples/writing-samples/README.md
+
+examples/before-after/*
+!examples/before-after/README.md
+
+# Nota: core/PROFESSIONAL_IDENTITY_TEMPLATE.md, core/VOICE_DNA_TEMPLATE.md
+# e core/THINKING_STYLE.md NÃO estão aqui de propósito — fazem parte do
+# template e devem ser versionados vazios/com placeholders. Depois de os
+# preencheres com dados reais, se quiseres manter o fork público, considera
+# `git update-index --skip-worktree <ficheiro>` nesses 3 ficheiros, ou
+# simplesmente mantém a tua cópia preenchida num repositório privado.
