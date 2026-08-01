@@ -1,5 +1,5 @@
 ---
-name: "[slug-do-nome]-writing-system"
+name: "idiolect"
 description: |
   Perfil de escrita de [NOME] ([PROFISSÃO]). Usar sempre que se produza ou
   reveja texto em nome dele/a: emails, cartas de motivação, candidaturas,
@@ -9,19 +9,13 @@ description: |
 license: MIT
 ---
 
-# [NOME] — Sistema de Escrita
+# idiolect — sistema de escrita de [NOME]
 
 > ⚠️ **Este é um template genérico, ainda por preencher.** Foi construído a
 > partir da arquitetura de um sistema de escrita pessoal já validado ao
 > longo de meses de uso real, mas o conteúdo de voz/identidade abaixo está
 > vazio ou com marcadores de exemplo. Ver `PREENCHER_PRIMEIRO.md` antes de
 > usar pela primeira vez.
->
-> ⚠️ **`name:` acima é um slug, não o nome normal** — só minúsculas, sem
-> espaços/acentos, letras/números/hífens (regra do formato [Agent
-> Skills](https://agentskills.io/specification)). Tem de ser exatamente
-> igual ao nome da pasta. Ver `PREENCHER_PRIMEIRO.md` §"Depois de
-> preencher".
 
 Sistema de escrita para produzir texto que soa genuinamente a [NOME], não a
 IA genérica. Usa disclosure progressivo: este ficheiro é o mapa — a maior
@@ -50,7 +44,7 @@ Pedido → VOICE_DNA + domain + context → rascunho → HUMANIZER → FACT_CHEC
 ## Mapa da árvore
 
 ```
-[nome]-writing-system/
+idiolect/
 ├── PREENCHER_PRIMEIRO.md    guia de arranque — ler antes de tudo
 │
 ├── core/            sempre relevante — ler para qualquer tarefa de escrita

@@ -57,22 +57,15 @@ dela.
 
 ## Depois de preencher
 
-1. Substituir `[NOME]` — atenção, há **dois usos diferentes**:
-   - **No corpo do texto** (títulos, prosa): nome normal, com maiúsculas e
-     acentos — ex. "João Silva"
-   - **No frontmatter do `SKILL.md` (`name:`) e no nome da pasta**: tem de
-     ser um **slug técnico** — só minúsculas, sem espaços nem acentos,
-     letras/números/hífens, sem hífen a abrir/fechar — ex.
-     `joao-silva-writing-system`. Isto é uma regra do formato [Agent
-     Skills](https://agentskills.io/specification), não uma preferência
-     estética; um `name:` inválido impede o skill de carregar em alguns
-     agentes.
-   Substituir também `[PROFISSÃO]` pelo valor real. Pedir à IA:
-   > "Substitui [NOME] por 'X' no texto e por 'x-slug' no name: do
-   > SKILL.md e no nome da pasta; substitui [PROFISSÃO] por 'Y'. Faz isto
-   > em todos os ficheiros da skill."
-2. Renomear a pasta de `sistema-de-escrita` para o mesmo slug usado no
-   `name:` do `SKILL.md` — **os dois têm de ser exatamente iguais**
+1. Substituir `[NOME]` (nome normal, com maiúsculas e acentos — ex. "João
+   Silva") e `[PROFISSÃO]` em todos os ficheiros pelos valores reais.
+   Pedir à IA:
+   > "Substitui [NOME] por 'X' e [PROFISSÃO] por 'Y' em todos os ficheiros
+   > da skill."
+2. Não é preciso renomear a pasta nem mexer no `name:` do `SKILL.md` —
+   ambos ficam `idiolect`, o nome fixo do projeto, tal como o repositório
+   `blader/humanizer` mantém o nome `humanizer` independentemente de quem
+   o instala
 3. Apagar este ficheiro ou mantê-lo — não interfere com o funcionamento
 
 ## Antes de publicar num repositório público

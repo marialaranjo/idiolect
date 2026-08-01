@@ -1,4 +1,9 @@
-# [NOME] — Sistema de Escrita (template)
+# idiolect
+
+🇬🇧 [Read this in English](README.en.md)
+
+> **idiolect** *(substantivo, linguística)*: o padrão de fala e escrita
+> único de uma pessoa — vocabulário, sintaxe, tom que só ela tem.
 
 Skill para o Claude (e qualquer agente compatível com o formato [Agent
 Skills](https://agentskills.io)) que produz texto a soar genuinamente a
@@ -13,7 +18,7 @@ está. **Começar por `PREENCHER_PRIMEIRO.md`.**
 ## Estrutura
 
 ```
-[nome]-writing-system/
+idiolect/
 ├── PREENCHER_PRIMEIRO.md  ← ler primeiro
 ├── SKILL.md                ← ponto de entrada; lido primeiro pelo agente
 ├── core/                    identidade, tom, regras — sempre relevante
@@ -42,6 +47,10 @@ Ver `PREENCHER_PRIMEIRO.md` — resumo:
    atualizar `core/VOICE_DNA_TEMPLATE.md` com base nelas
 3. Domínio próprio da profissão, se fizer falta (opcional)
 
+Não é preciso renomear nada — o nome do projeto (`idiolect`) fica fixo no
+`name:` do `SKILL.md` e no nome da pasta; só o conteúdo interno é
+personalizado.
+
 ## Privacidade, se o repositório for público
 
 Depois de preenchido, este sistema passa a conter dados pessoais (e
@@ -66,9 +75,8 @@ independente da língua.
 criação de ficheiros") → `Personalizar → Skills` → carregar o `.zip` desta
 pasta.
 
-**Claude Code:** extrair para `~/.claude/skills/[nome]-writing-system/`
-(pessoal) ou `.claude/skills/[nome]-writing-system/` dentro de um projeto
-específico.
+**Claude Code:** extrair para `~/.claude/skills/idiolect/` (pessoal) ou
+`.claude/skills/idiolect/` dentro de um projeto específico.
 
 ## Créditos
 
